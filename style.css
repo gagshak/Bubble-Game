@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Handjet', cursive;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(228, 167, 228);
+
+}
+
+#pannel{
+ overflow: hidden;
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+background-color: rgba(128, 0, 128, 0.844);
+height: 80px;
+width: 100%;
+padding: 0 30%;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    color: white;
+
+}
+.ending,h1,h2{
+    color: white;
+}
+h2,h1{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    padding: 7px 15px;
+    border-radius: 5px;
+background-color: white;
+color: rgb(128, 0, 128);
+font-weight: 600;
+font-size: 25px;
+}
+
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: rgb(33, 9, 33);
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    font-weight: bold;
+
+}
+.circle:hover{
+    background-color: rgb(155, 136, 154) ;
+
+}
+
+
+
+
+
+
+
+
